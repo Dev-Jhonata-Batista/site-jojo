@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Fã-clube - JoJo's Bizarre Adventure</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro do Fã-clube</h1>
+    </header>
+
+    <nav>
+        <p>
+            <a href="home.html">Início</a> |
+            <a href="partes.html">Partes</a> |
+            <a href="personagens.html">Personagens</a> |
+            <a href="stands.html">Stands</a> |
+            <a href="videos.html">Vídeos</a> |
+            <a href="trilha-sonora.html">Trilha Sonora</a> |
+            <a href="galeria.html">Galeria</a> |
+            <a href="faq.html">FAQ</a> |
+            <a href="curiosidades.html">Curiosidades</a> |
+            <a href="fa-clube.html">Fã-clube</a> |
+            <a href="sobre.html">Sobre mim</a>
+        </p>
+    </nav>
+
+    <main>
+        <hr>
+
+        <section>
+            <h2>Preencha seus dados</h2>
+
+            <p>
+                Os campos com <b>*</b> são obrigatórios.
+            </p>
+
+            <form>
+
+                <fieldset>
+                    <legend><b>Dados pessoais</b></legend>
+
+                    <p>
+                        <label for="nome">Nome completo *</label><br>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail *</label><br>
+                        <input type="email" id="email" name="email" placeholder="voce@exemplo.com" required>
+                    </p>
+
+                    <p>
+                        <label for="nascimento">Data de nascimento *</label><br>
+                        <input type="date" id="nascimento" name="nascimento" required>
+                    </p>
+
+                    <p>
+                        <label for="foto">Foto de perfil</label><br>
+                        <input type="file" id="foto" name="foto" accept="image/*">
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend><b>Preferências de fã</b></legend>
+
+                    <p>
+                        <label for="parte">Parte favorita</label><br>
+                        <input type="text" id="parte" name="parte" list="partes" placeholder="Escolha ou digite">
+                        <datalist id="partes">
+                            <option value="Parte 1 - Phantom Blood">
+                            <option value="Parte 2 - Battle Tendency">
+                            <option value="Parte 3 - Stardust Crusaders">
+                            <option value="Parte 4 - Diamond is Unbreakable">
+                            <option value="Parte 5 - Golden Wind">
+                            <option value="Parte 6 - Stone Ocean">
+                            <option value="Parte 7 - Steel Ball Run">
+                            <option value="Parte 8 - JoJolion">
+                            <option value="Parte 9 - The JOJOLands">
+                        </datalist>
+                    </p>
+
+                    <p>
+                        <label for="nivel">Nível de fã (0 a 10)</label><br>
+                        <input type="range" id="nivel" name="nivel" min="0" max="10" value="5">
+                    </p>
+
+                    <p>
+                        <label for="cor">Cor favorita do seu Stand</label><br>
+                        <input type="color" id="cor" name="cor" value="#e94560">
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Por que você gosta de JoJo?</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="5" cols="40"
+                                  placeholder="Escreva aqui"></textarea>
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <button type="submit">Enviar cadastro</button>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <aside>
+            <p>
+                <i>
+                    Este formulário é apenas um exercício de HTML. Ele não envia nem guarda
+                    nenhum dado.
+                </i>
+            </p>
+        </aside>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p><i>Site feito por Jhonata Batista para a Atividade da Aula 05.</i></p>
+    </footer>
+</body>
+</html>
