@@ -1,31 +1,53 @@
-# Estudos Front-end
+# Site JoJo's Bizarre Adventure
 
-Aqui eu guardo os projetos que faço estudando front-end.
+Site sobre JoJo's Bizarre Adventure, feito para a Atividade de HTML Avançado.
 
-Sou estudante de Ciência da Computação e estou aprendendo HTML, CSS e JavaScript.
-Cada pasta é um projeto diferente, feito para praticar o que vi nas aulas.
+Sou estudante de Ciência da Computação e este projeto foi feito para praticar
+o que vi nas aulas. Usei só HTML puro, sem CSS e sem JavaScript.
 
-## Projetos
+## Páginas
 
-### site-jojo
+| Arquivo | Conteúdo |
+|---|---|
+| `home.html` | Página inicial |
+| `partes.html` | As 9 partes da obra |
+| `personagens.html` | Protagonistas e vilão principal |
+| `stands.html` | O que é um Stand |
+| `videos.html` | Trailers oficiais |
+| `trilha-sonora.html` | Músicas e cenas marcantes |
+| `galeria.html` | Protagonista e vilão de cada parte |
+| `faq.html` | Perguntas frequentes |
+| `curiosidades.html` | Fatos sobre a obra |
+| `fa-clube.html` | Cadastro do fã-clube |
+| `sobre.html` | Sobre mim e meus contatos |
 
-Um site sobre JoJo's Bizarre Adventure, feito para a Atividade da Aula 04.
-Usei só HTML puro, sem CSS ainda.
+Todas as páginas têm o mesmo menu no topo, então dá para ir de qualquer
+página para qualquer outra.
 
-O que pratiquei nele:
+## Organização das pastas
 
-- Tags básicas (html, head, body)
-- Títulos e parágrafos
-- Marcação de texto (b, i, br, hr)
-- Listas (ul, ol, li)
-- Tabelas (table, tr, th, td)
-- Links e navegação entre páginas
-- Imagens
-- Vídeo do YouTube com iframe
+site-jojo/
+├── README.md
+├── html/ páginas do site
+├── img/ imagens
+├── audio/ arquivos de áudio
+└── video/ arquivos de vídeo
+
+
+## O que pratiquei
+
+- Tags semânticas (header, nav, main, section, article, aside, footer)
+- Multimídia (audio, video, figure, figcaption, iframe)
+- Formulário avançado (date, file, range, color, required, placeholder)
+- Datalist com sugestões
+- Elemento interativo (details, summary)
+- Marcação avançada (abbr, mark, cite, del, ins, blockquote, progress, meter)
+- Tabelas e listas
+- Navegação entre páginas
 
 ## Como abrir
 
-É só baixar a pasta do projeto e abrir o arquivo `html/home.html` no navegador.
+Baixe o projeto e abra o arquivo `html/home.html` no navegador.
 
 ## Contato
 
