@@ -26,12 +26,10 @@ página para qualquer outra.
 
 ## Organização das pastas
 
-site-jojo/
-├── README.md
-├── html/ páginas do site
-├── img/ imagens
-├── audio/ arquivos de áudio
-└── video/ arquivos de vídeo
+- `html/` - páginas do site
+- `img/` - imagens
+- `audio/` - arquivos de áudio
+- `video/` - arquivos de vídeo
 
 
 ## O que pratiquei
